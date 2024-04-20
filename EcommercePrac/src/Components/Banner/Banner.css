@@ -1,0 +1,82 @@
+.home-main {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  align-items: center;
+  background: linear-gradient(to right, #185c8d, #165a78, #176895);
+}
+.home-context-main {
+  margin: 7rem 0px 7rem 0px;
+}
+.home-main-left {
+  padding: 0px 0px 0px 8%;
+}
+.home-content {
+  margin: 3rem 0px 3rem 0rem;
+}
+.home-content h1 {
+  font-weight: bolder;
+}
+.home-content h3 {
+  font-weight: 600;
+}
+.home-button {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.home-button-blue {
+  background: transparent;
+  border: 1px solid #fffdfd;
+  border-radius: 0px;
+  color: #fffdfd;
+}
+.home-button-white {
+  background: #f4f5f6;
+  border: 1px solid #fffdfd;
+  border-radius: 0px;
+  color: #6c7071;
+}
+.home-button-white:hover {
+  background: transparent;
+  border-radius: 0px;
+  color: #f4f5f6;
+}
+
+.home-button-blue:hover {
+  background: #fffdfd;
+  border-radius: 0px;
+  color: #175b7d;
+}
+.home-main-image img {
+  height: 70vh;
+  width: 116%;
+  margin-left: -15%;
+  background-size: cover;
+  transform: scaleX(-1);
+}
+.home-main-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (min-width: 2000px) and (max-width: 2500px) {
+  .home-content h1 {
+    font-size: 5rem;
+  }
+
+  .home-content h3 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1999px) {
+  .home-content h1 {
+    font-size: 4rem;
+  }
+
+  .home-content h3 {
+    font-size: 2.5rem;
+  }
+}

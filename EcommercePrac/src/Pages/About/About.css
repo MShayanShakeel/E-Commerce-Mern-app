@@ -1,0 +1,12 @@
+.aboutUs-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUs-main h1 {
+  margin: 1rem 0px 1rem 0px;
+}
+.aboutus-text {
+  color: black; /* Set your desired text color */
+  text-shadow: 2px 2px 4px #ffffff; /* Set your desired shadow values */
+}

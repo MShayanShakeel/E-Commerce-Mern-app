@@ -1,0 +1,13 @@
+.Offers-main {
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  margin-top: 2rem;;
+}
+
+.Offers-second{
+    padding: 1rem 1rem 1rem 1rem ;
+    border: 1px solid #14618F;
+    border-radius: 10px;
+    background-color: #DBEBEF;
+}

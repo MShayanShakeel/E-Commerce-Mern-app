@@ -1,0 +1,36 @@
+.contact-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vh;
+}
+
+.contact-second {
+  width: 25%;
+}
+.contact-second textarea {
+  width: 100%;
+  height: 10vh;
+}
+.Contact-social-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* position: absolute;
+  bottom: 0;
+  right: 0; */
+}
+.Contact-social-icons svg {
+  font-size: 2rem;
+  cursor: pointer;
+  right: 0;
+}
+.contact-button button {
+  width: 100%;
+  margin: auto;
+  padding: 3px 3px 3px 3px;
+  background-color: #f14c8c;
+  color: white;
+  margin-top: 5px;
+}

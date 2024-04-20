@@ -1,0 +1,76 @@
+.Get-singel-product-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  /* max-height: 100vh; */
+  padding: 0px 4rem 0px 4rem;
+  background-color: white;
+  margin-bottom: 2rem;
+}
+
+/* Add this CSS in your external stylesheet */
+.input-wrapper {
+  border: none;
+  align-items: center;
+  background: none;
+  padding: 5px 0px 5px 5px;
+  margin: 1rem 0px 1rem 0px;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  border: solid 1px #dbebef;
+  border-radius: 5px;
+}
+
+.input-wrapper input {
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  width: 100%;
+}
+
+/* Style placeholder text */
+.input-wrapper input::placeholder {
+  color: inherit;
+}
+
+/* Style input on focus (optional) */
+.input-wrapper input:focus {
+  outline: none;
+}
+
+.Product-Name-class {
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: auto;
+  margin: 0px 0px 1rem 0px;
+  border: none;
+}
+
+.Update-button-class {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  background-color: #1d1d1b;
+  border-radius: 0px;
+  color: white;
+  margin-top: 2rem;
+}
+.Product-add-sub-button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    margin-right: 1rem;
+}
+.Product-add-sub-button svg{
+    cursor: pointer;
+}

@@ -1,0 +1,19 @@
+.Add-product-main {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.error-message {
+  font-weight: 300;
+  color: red;
+  display: inline-block;
+}
+.product-add-gender-dropdown-box {
+  width: 100%;
+  padding: 4%;
+  margin-bottom: 8px;
+  border-radius: 3px;
+  border: solid #CCCCCC 0.2px;
+}

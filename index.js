@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 require('./db/config');
 const Users = require('./db/modelSchema/users')
 const multer = require('multer');
@@ -169,4 +170,13 @@ function tokenValidation(req, res, next) {
 }
 
 
-app.listen(5000);
+app.use(express.static(path.join(__dirname, '/EcommercePrac/dist')));
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, '/EcommercePrac/dist/index.html'))
+})
+
+// Start the server
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
