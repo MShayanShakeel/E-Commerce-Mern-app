@@ -172,7 +172,7 @@ function tokenValidation(req, res, next) {
 
 app.use(express.static(path.join(__dirname, '/EcommercePrac/dist')));
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '/EcommercePrac/dist/index.html'))
+    res.sendFile(path.join(__dirname, 'Back-end/EcommercePrac/dist/index.html'))
 })
 
 // Start the server
